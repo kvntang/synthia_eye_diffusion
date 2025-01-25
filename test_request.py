@@ -7,7 +7,7 @@ def main():
     url = "http://app.unaliu.com"
 
     # 2. Path to the local image you want to send
-    image_path = "test_image.jpg"
+    image_path = "test1.jpg"
 
     # 3. Open the image file in binary mode
     with open(image_path, "rb") as img_file:
