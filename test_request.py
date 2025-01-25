@@ -4,7 +4,7 @@ import os
 
 def main():
     # 1. URL of your Flask server
-    url = "http://127.0.0.1:3000"
+    url = "http://app.unaliu.com"
 
     # 2. Path to the local image you want to send
     image_path = "test_image.jpg"
@@ -43,7 +43,7 @@ def main():
         image_bytes = base64.b64decode(base64_image_str)
 
         # 7. Write the bytes to a new file (e.g., output.png)
-        output_filename = "output.png"
+        output_filename = "output2.png"
         with open(output_filename, "wb") as out_file:
             out_file.write(image_bytes)
         
