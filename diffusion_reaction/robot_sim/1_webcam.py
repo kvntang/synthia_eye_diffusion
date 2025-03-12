@@ -6,7 +6,7 @@ import numpy as np
 
 def main():
     # 1. URL of your Flask (Stable Diffusion) server
-    url = "http://app.unaliu.com"  # <-- adjust to your actual endpoint
+    url = "http://synthia.tangatory.com"  # <-- adjust to your actual endpoint
 
     # 2. Initialize webcam
     cap = cv2.VideoCapture(0)  # 0 is the default camera index
